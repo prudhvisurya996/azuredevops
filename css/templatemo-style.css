@@ -400,6 +400,10 @@ https://templatemo.com/tm-516-known
       FEATURE              
   -----------------------------------------*/
 
+  .roww{
+    justify-content: space-around;
+    display: flex;
+  }
   .feature-thumb {
     border: 1px solid #f0f0f0;
     padding: 5em 3em;
@@ -422,6 +426,19 @@ https://templatemo.com/tm-516-known
   .feature-thumb h3 {
     margin: 10px 0;
   }
+ .Register-link, .Login-link {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 8px 20px;
+  background-color: #7dce9f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.Register-link:hover, .Login-link:hover {
+  background-color: #0056b3;
+}
 
 
 
