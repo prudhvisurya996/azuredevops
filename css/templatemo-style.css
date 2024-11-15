@@ -753,96 +753,83 @@ https://templatemo.com/tm-516-known
 
   footer {
     background-color: #2bbf0dd1; /* Light background color for better visibility */
-    padding: 120px 0;
+    color: #f8f8f8; /* Light grey text for good contrast */
+    padding: 40px 0;
   }
-
-  footer .section-title {
-    padding-bottom: 10px;
-  }
-
+  
   footer h2 {
-    font-size: 20px;
+    font-size: 18px;
+    color: #0c0c0c; /* Light grey for headings */
+    margin-bottom: 15px;
   }
-
-  footer a,
+  
   footer p {
-    color: #000000;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #050505; /* Slightly darker grey for paragraphs */
   }
-
-  footer strong {
-    color: #d9d9d9;
+  
+  footer a {
+    color: #0e0e0e; /* White color for links */
+    text-decoration: none;
   }
-
-  footer address p {
-    margin-bottom: 0;
+  
+  footer a:hover {
+    color: #1d28f2; /* Light blue on hover for links */
   }
-
-  footer .social-icon {
-    margin-top: 25px;
-  }
-
-  .footer-info {
-    margin-right: 2em;
-  }
-
-  .footer-info h2 {
-    color: #ffffff;
-    padding: 0;
-  }
-
-  .footer_menu h2 {
-    margin-top: 2em;
-  }
-
-  .footer_menu ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  .footer_menu li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 10px 5px 0;
-  }
-
-  .newsletter-form .form-control {
-    background: transparent;
-    border-radius: 0;
-    box-shadow: none;
-    border: 0;
-    border-bottom: 1px solid #303030;
-    height: 50px;
+  
+  footer .contact-info p {
     margin: 5px 0;
   }
-
-  .newsletter-form input[type="submit"] {
-    background: transparent;
-    border: 1px solid #f9f9f9;
-    border-radius: 50px;
-    color: #ffffff;
-    display: block;
-    margin-top: 20px;
-    outline: none;
-    width: 50%;
-  }
-
-  .newsletter-form input[type="submit"]:hover {
-    background: #038b4a;
-    border-color: transparent;
-  }
-
-  .newsletter-form .form-group span {
-    color: #000000;
-    display: block;
-    font-size: 12px;
+  
+  footer .social-icon {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
   }
-  .form-group input::placeholder{
-    color: #000000;
+  
+  footer .social-icon li {
+    margin-right: 15px;
   }
-.copyright-text{
-  text-align: center;
-}
+  
+  footer .social-icon a {
+    font-size: 24px;
+    color: #090909; /* White color for social media icons */
+    transition: color 0.3s;
+  }
+  
+  footer .social-icon a:hover {
+    color: #1DA1F2; /* Light blue on hover for icons */
+  }
+  
+  footer .copyright-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #121212; /* Darker grey for copyright text */
+  }
+  
+  footer .copyright-text a {
+    color: #070707; /* White for the design link */
+    text-decoration: none;
+  }
+  
+  footer .copyright-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Make sure it looks good on mobile devices */
+  @media (max-width: 767px) {
+    footer .row {
+        text-align: center;
+    }
+  
+    footer .social-icon {
+        justify-content: center;
+    }
+  }
 
 
   /*---------------------------------------
